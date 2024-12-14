@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-08"
+version = "0.1.0"
+description = ""
+authors = ["kryvosheyin <alex.kryvosheyin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+uvicorn = "^0.33.0"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+pydantic = "^2.10.3"
+asyncpg = "^0.30.0"
+greenlet = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
